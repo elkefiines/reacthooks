@@ -1,0 +1,14 @@
+button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  /* width: 30px;
+  height: 30px;*/
+}
+.on {
+  color: rgb(254, 240, 37);
+}
+.off {
+  color: #ccc;
+}

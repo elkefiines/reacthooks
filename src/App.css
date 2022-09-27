@@ -1,0 +1,40 @@
+/** {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}*/
+.App {
+  text-align: center;
+}
+body {
+  background-color: rgb(218, 201, 216);
+}
+.addCard {
+  width: 150px;
+  height: 50px;
+  margin: auto;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  box-shadow: 0px 20px 30px 3px rgba(85, 70, 26, 0.2);
+  transform: scale(0.95);
+  transition: all 0.5s;
+  background-color: black;
+  margin-top: 30px;
+  cursor: pointer;
+}
+h2 {
+  text-align: center;
+  color: white;
+  margin-top: 20px;
+  justify-content: center;
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
