@@ -63,3 +63,17 @@ p {
 .card-rating {
   margin: 10px 10px 10px 40px;
 }
+.trailer {
+  width: 150px;
+  height: 50px;
+  margin: auto;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  box-shadow: 0px 20px 30px 3px rgba(85, 70, 26, 0.2);
+  transform: scale(0.95);
+  transition: all 0.5s;
+  background-color: rgb(119, 10, 125);
+  margin-top: 30px;
+  cursor: pointer;
+}
